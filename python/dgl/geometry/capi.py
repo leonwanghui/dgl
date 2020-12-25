@@ -22,7 +22,7 @@ def farthest_point_sampler(data, batch_size, sample_points, dist, start_idx, res
 
     Returns
     -------
-    No return value. The input variable ``result`` will be overwriten with sampled indices.
+    No return value. The input variable ``result`` will be overwritten with sampled indices.
 
     """
     assert F.shape(data)[0] >= sample_points * batch_size
